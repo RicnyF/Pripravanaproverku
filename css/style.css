@@ -1,10 +1,14 @@
 table, th, td { 
-    border: 3px solid black;
+    
+    
+}
+.table, th, td{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     border-style:double ;
-}
-.table{
-    width: 800px;
+    border: 1px solid rgb(255, 252, 252);
 }
 main, header{
     margin: auto 200px;
@@ -14,4 +18,43 @@ dt {
 }
 .center{
     text-align: center;
+}
+.img {
+    width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1 {
+    color: red;
+    font-size: 60px;
+}
+
+.font-size {
+    font-size: 20px;
+}
+.font-size2{
+    font-size: 40px;
+}
+.font-size3 {
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+html{
+    background-color: gray;
+}
+ li, p, dd{
+    color: white
+}
+h2, h3{
+    color: blue;
+}
+strong {
+    background-color: black;
+}
+dt{
+    color: black;
 }
